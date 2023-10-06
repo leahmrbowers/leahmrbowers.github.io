@@ -1,0 +1,11 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* You can adjust alignment as needed */
+}
+
+#two, #contact {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin as needed for spacing */
+}
