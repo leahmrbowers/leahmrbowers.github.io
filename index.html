@@ -102,14 +102,15 @@
 				<!-- New Contact -->
 				<style>
 				    #contact {
-				        text-align: center; /* Center aligns the text */
-					justify-content: center;
-        				align-items: center;
+				        display: flex;
+				        flex-direction: column;
+				        justify-content: center;
+				        align-items: center;
+				        height: 100vh; /* Optional: Set a specific height for the section, for example, 100% of the viewport height */
 				    }
 				
 				    #contact section {
-				        display: inline-block; /* This ensures that the text is centered horizontally */
-				        text-align: center; /* Aligns the text inside the section to the left */
+				        text-align: center; /* Aligns the text inside the section to the center */
 				    }
 				</style>
 					<section id="contact">
@@ -118,8 +119,9 @@
 								<h2>Let's connect. </h2>
 							</header>
 							<ul class="actions">
-								<li><a href="https://calendly.com/leahmraderbowers/connection-call" class="button primary">Book a call</a></li>
-								<li><a href="https://mail.google.com/mail/u/0/?fs=1&to=leah.bowers92@gmail.com&su=Connection&tf=cm" class="button">Email</a></li>
+								<li><a href="https://calendly.com/leahmraderbowers/connection-call" class="button primary" target="_blank">Book a call</a></li>
+								<li><a href="https://mail.google.com/mail/u/0/?fs=1&to=leah.bowers92@gmail.com&su=Connection&tf=cm" class="button" target="_blank">Email</a></li>
+
 							</ul>
 						</section>
 					</section>
